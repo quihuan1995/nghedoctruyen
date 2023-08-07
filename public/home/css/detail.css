@@ -1,0 +1,596 @@
+#comments #wpdcom span,
+#respond #wpdcom span,
+#wpdcom span {
+    display: inline;
+    letter-spacing: inherit;
+    text-transform: none;
+    font-size: 1em;
+}
+
+#wpdcom .wpd-comment {
+    margin-bottom: 20px;
+}
+
+#wpdcom .wpd-comment .wpd-comment-wrap {
+    padding-bottom: 5px;
+}
+
+#wpdcom .wpd-comment .wpd-comment-right {
+    padding-bottom: 15px;
+    flex-grow: 1;
+    width: calc(100% - 80px);
+}
+
+#wpdcom .wpd-comment .wpd-comment-header {
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#wpdcom .wpd-comment .wpd-comment-header .wpd-user-info .wpd-uinfo-top {
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#wpdcom .wpd-comment .wpd-avatar {
+    position: relative;
+    padding-right: 15px;
+}
+
+#wpdcom .wpd-comment .wpd-comment-header .wpd-user-info {
+    display: block;
+    flex-grow: 1;
+    margin-bottom: -3px;
+}
+
+#wpdcom .wpd-comment-header .wpd-comment-author {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    margin-right: 5px;
+    color: #00B38F;
+    margin-bottom: 2%;
+}
+
+#wpdcom .wpd-comment-text {
+    margin: 3% 0 5px 0;
+    color: #fff;
+    font-size: 19px;
+    padding: 0 0 8px 0;
+    word-break: break-word;
+}
+
+#wpdcom * {
+    box-sizing: border-box;
+    line-height: initial;
+}
+
+#wpdcom .wpd-thread-head .wpd-thread-info {
+    color: #fff;
+    padding: 5px 15px 3px 5px;
+    font-weight: 600;
+    margin-bottom: -2px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 24px;
+}
+
+#wpdcom .wpd-comment-info-bar {
+    display: none;
+    padding: 10px;
+    margin: 20px auto 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    background: #e6f8f4;
+}
+
+#wpdcom .wpd-second-button:hover,
+#wpdcom .wpd-prim-button:hover {
+    opacity: 0.9;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+#wpdcom button {
+    margin: inherit;
+}
+
+#wpdcom .wpd-prim-button {
+    background-color: #07B290;
+    color: #FFFFFF;
+    padding: 1%;
+}
+
+#wpdcom #wpd-threads {
+    margin-top: 20px;
+}
+
+#wpdcom .wpd-thread-head {
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#wpdcom .wpd-thread-list {
+    padding: 30px 0;
+}
+
+.wpd-comment-date {
+    color: #fff;
+}
+
+#wpdcom form {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background: none;
+}
+
+#wpdcom .wpd-form .wpdiscuz-textarea-wrap.wpd-txt {
+    flex-wrap: wrap;
+}
+
+#wpdcom .wpd-form .wpdiscuz-textarea-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+#wpdcom .wpd-form .wpdiscuz-textarea-wrap.wpd-txt .wpd-avatar {
+    flex-basis: 69px;
+    margin-right: 0;
+}
+
+#wpdcom.wpd-layout-2 .wpd-form .wpd-avatar {
+    width: 54px;
+    margin-right: 11px;
+}
+
+#wpdcom .wpd-form .wpd-avatar {
+    margin-right: 15px;
+    border-radius: 100%;
+    text-align: left;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+#wpdcom .wpd-form .wpdiscuz-textarea-wrap.wpd-txt .wpd-textarea-wrap {
+    flex-basis: calc( 100% - 70px);
+}
+
+#wpdcom .wpd-form .wpd-textarea-wrap {
+    position: relative;
+}
+
+.wc_comment {
+    overflow: hidden;
+    min-height: 2em;
+    height: 55.2px;
+}
+
+#wpdcom .wpd-form .wpdiscuz-textarea-wrap.wpd-txt .wpd-textarea-wrap textarea {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 10px 15px;
+    font-size: 14px;
+    box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.1);
+    font-family: inherit;
+}
+
+.jp-playlist.find_li ul li:last-child ul.more_option {
+    top: auto;
+    bottom: 100%;
+}
+
+.jp-audio .jp-type-playlist .jp-time-holder {
+    display: inline-block;
+}
+
+.jp-audio .jp-time-holder {
+    line-height: 10px;
+    vertical-align: bottom;
+}
+
+.jp-current-time {
+    display: inline;
+    cursor: default;
+    margin-right: 20px;
+}
+
+.jp-duration {
+    display: inline;
+    text-align: right;
+}
+
+.jp-current-time,
+.jp-duration {
+    width: 20%;
+    font-size: 16px;
+    color: #f1f1f1;
+    font-style: oblique;
+}
+
+.jp-audio .jp-type-playlist .jp-progress {
+    width: 55%;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.jp-audio .jp-progress {
+    height: 8px;
+    border-radius: 3px;
+    background-color: #ddd;
+}
+
+.jp-play-bar {
+    background: #ff8500;
+    height: 8px;
+    position: relative;
+    overflow: unset !important;
+}
+
+.jp-play-bar::after {
+    position: absolute;
+    content: ".";
+    background-color: #ff8500;
+    color: red;
+    font-weight: bold;
+    width: 18px;
+    right: -5px;
+    height: 18px;
+    top: -6px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.jp-controls button:hover {
+    background: #ff8500;
+    color: #fff;
+}
+
+.jp-interface .jp-controls {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.jp-audio .jp-controls {
+    margin-bottom: 20px;
+    float: left;
+}
+
+.jp-controls button {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 10px;
+    border: 1px solid #ff8500;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    background: #ff8500;
+}
+
+.jp-audio {
+    width: 100%;
+}
+
+.jp-audio,
+.jp-audio-stream,
+.jp-video {
+    font-size: 16px;
+}
+
+.jp-type-playlist,
+.jp-controls {
+    display: inline-block;
+    width: 100%;
+}
+
+.jp-audio .jp-interface,
+.jp-audio-stream .jp-interface {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background: #000;
+}
+
+.jp-interface {
+    position: relative;
+    background-color: #2f3038;
+}
+
+#jp_container_1 {
+    float: left;
+    display: block;
+}
+
+.main-category h1 {
+    background: linear-gradient(to right, #fc6420, #ff2070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    background-color: #fc6420;
+}
+
+div.jp-type-playlist div.jp-playlist a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 6px 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.jp-state-playing .jp-play:before {
+    content: "\f04c"!important;
+}
+
+.fa-play:before {
+    content: "\f04b";
+}
+
+.jp-playlist {
+    width: 100%;
+    background-color: #2f3038;
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.jp-playlist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+    background: #ff8500 !important;
+    display: inline-block;
+    width: 100%;
+}
+
+.jp-playlist-item {
+    padding: 1%;
+    color: white;
+    cursor: pointer;
+}
+
+.jp-playlist-item:hover {
+    background: #ff8500 !important;
+}
+
+.jp-playlist li div {
+    display: inline;
+}
+
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+    float: right;
+    display: inline;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #666;
+}
+
+div.jp-type-playlist div.jp-playlist a:hover {
+    background: linear-gradient(to right, #fc6420, #ff2070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    background-color: #fc6420;
+}
+
+.col-left {
+    height: auto !important;
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    min-height: 1px;
+    display: inline-block;
+    width: 27%;
+    float: left;
+    margin-right: 30px;
+}
+
+.thum-post {
+    border-radius: 8px;
+    overflow: hidden;
+    display: block;
+    border: 1px solid #1a1a1a;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.col-right {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    height: auto !important;
+    color: #666;
+    background: #2f3038;
+    padding: 1%;
+}
+
+.icon-main-post {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.title-post-mc {
+    display: block;
+}
+
+.play-audio {
+    margin-top: 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.main-category {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 100%;
+    height: auto !important;
+}
+
+.mrb5 {
+    font-size: 20px;
+}
+
+.autogrow-textarea-mirror {
+    display: none;
+    overflow-wrap: break-word;
+    padding: 10px 15px;
+    width: 663px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.jp-seek-bar {
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    .col-left,
+    .col-right {
+        width: 100% !important;
+        margin: 0px;
+    }
+}
+
+@media(max-width:320px) {
+    .jp-controls.flex-item {
+        -ms-flex-preferred-size: 190px;
+        flex-basis: 190px;
+    }
+    .main-category {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title-post-mc {
+        line-height: 32px;
+    }
+    .play-audio-button {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .jp-audio .jp-type-playlist .jp-progress {
+        vertical-align: unset !important;
+    }
+    .col-right {
+        margin-top: 20px;
+    }
+    .thum-post {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.info-post p {
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+}
+.info-post a:hover{
+    color: #fc6420;
+}
+.fa-star {
+    font-size: 20px;
+}
+
+.info-post span {
+    display: inline-block;
+    width: 100%;
+    font-weight: 500;
+    color: #fc6420;
+}
+
+.checkboxs {
+    display: none;
+}
+
+.info-post,
+.content {
+    display: inline-block;
+    width: 100%;
+}
+
+.content-post-title {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    border-left: 3px solid #fc6420;
+    padding-left: 10px;
+    color: #fc6420;
+    margin: 10px 0px;
+    font-weight: 500;
+    background: linear-gradient(to right, #fc6420, #ff2070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    background-color: #fc6420;
+}
+
+.orange,
+.fa-star:hover,
+.fa-star:hover~input {
+    color: orange;
+}
+
+.content p {
+    color: white;
+}
+
+.rate {
+    margin-top: 5%;
+}
+
+.zingtua {
+    padding: 10px;
+    color: #fff;
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+}
+
+.btnspeed {
+    cursor: pointer;
+    border: 0px;
+    color: #000;
+    border-radius: 3px;
+    padding: 8px 10px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.choosespeed {
+    background: #ff8500 !important;
+    color: white !important;
+}
